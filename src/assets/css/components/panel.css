@@ -1,0 +1,18 @@
+.panel{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square{
+  height: 150px;
+  width: 150px;
+  background-color: #d3d3d3;
+  border: 1px solid #000;
+}
+
+.enemy{
+  background-image: url("../../images/character/ralph.png");
+  background-size: cover;
+}
