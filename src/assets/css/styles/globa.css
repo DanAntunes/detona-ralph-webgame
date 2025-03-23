@@ -20,3 +20,9 @@ main {
   -ms-flex: 1 1 0;
   flex: 1 1 0;
 }
+
+.bg{
+  background-image: url("../img/wall.png");
+  overflow: hidden; /* Impede overflow */
+  padding: 0 !important; /* Remove padding do container-fluid */
+}
