@@ -1,3 +1,4 @@
 @import url(./styles/reset.css);
 @import url(./layout/header.css);
-@import url(./styles/globa.css);
+@import url(./styles/global.css);
+@import url(./components/panel.css);
