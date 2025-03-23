@@ -20,3 +20,18 @@
   font-size: 1.5rem;
   margin-top: 5px;
 }
+
+.menu-lives{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player{
+  height: 85px;
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2){
+  margin-top: 2rem;
+}
