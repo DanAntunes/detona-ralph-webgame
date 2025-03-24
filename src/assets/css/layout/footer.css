@@ -1,7 +1,9 @@
 footer {
   padding: 0;
   width: 100%;
-  background-color: var(--bg-footer);
+  background-color: rgba(var(--bg-footer-rgb), 0.5); 
+  position: relative; 
+  background-image: url('/src/assets/images/background/wall.png');
 }
 
 footer small {
@@ -9,5 +11,5 @@ footer small {
   text-align: center;
   padding: 1rem;
   margin: 0;
-  color: var(--text-color);
+  color: white;
 }
