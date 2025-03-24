@@ -8,8 +8,8 @@
 
   <!-- SEO Básico -->
   <title>Detona Ralph | Home</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Jogue o Detona Ralph, um emocionante jogo de aventura inspirado no clássico universo dos games! Divirta-se com desafios incríveis e gráficos retro.">
+  <meta name="keywords" content="Detona Ralph, jogo online, game clássico, aventura digital, jogo retro, web game, jogo gratuito">
   <meta name="author" content="Danilo Antunes">
 
   <!-- Controle de indexação -->
@@ -38,27 +38,29 @@
 </head>
 <body class="d-flex bg flex-column min-vh-100">
   <header class="mt-4">
-    <nav>
+    <nav aria-label="Navegação principal">
       <h1 class="text-center mb-4 fw-bold text-uppercase">Web Game Detona Ralph</h1>
     </nav>
   </header>
 
-  <main class="flex-grow-1">
+  <main id="main" class="flex-grow-1" role="main">
     <div class="container h-100">
       <div class="h-100 d-flex flex-column justify-content-center align-items-center">
         <img src="./src/assets/images/logo.png" 
              alt="Logo Detona Ralph" 
-             class="img-fluid mb-4 logo ">
-        <a href="./src/assets/pages/app.html">
-          <button class="btn btn-lg px-5 py-3 text-uppercase">
+             class="img-fluid mb-4 logo"
+             aria-hidden="false">
+        <a href="./src/assets/pages/app.html" 
+             class="btn btn-lg px-5 py-3 text-uppercase"
+             role="button"
+             aria-label="Iniciar o jogo Detona Ralph">
             Start Game
-          </button>
-        </a>
+          </a>  
       </div>
     </div>
   </main>
 
-  <footer class="text-center py-3 mt-auto">
+  <footer class="text-center py-3 mt-auto" role="contentinfo">
     <small>&copy; 2025. Todos os direitos reservados.</small>
   </footer>
 </body>
