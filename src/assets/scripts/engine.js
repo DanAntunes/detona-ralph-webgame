@@ -29,7 +29,7 @@ function countDown(){
 }
 
 function playSound(){
-  const audio = new Audio("./src/assets/sound/src_audios_hit.m4a");
+  const audio = new Audio("../sound/src_audios_hit.m4a");
   audio.volume = 0.2;
   audio.play();
 }
