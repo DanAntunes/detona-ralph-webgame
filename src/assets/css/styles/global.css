@@ -23,6 +23,6 @@ main {
 
 .bg{
   background-image: url("../../images/background/wall.png");
-  overflow: hidden; /* Impede overflow */
-  padding: 0 !important; /* Remove padding do container-fluid */
+  overflow: hidden;
+  padding: 0 !important;
 }
