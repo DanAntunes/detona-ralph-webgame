@@ -1,7 +1,7 @@
 /* Media Queries para ajustes específicos */
 @media (max-width: 576px) { /* Telas menores que 576px */
   .panel {
-    margin-top: 2.4rem;
+    margin-top: 9rem;
   }
   .square {
     height: 35vw;
