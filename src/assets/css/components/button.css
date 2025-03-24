@@ -1,4 +1,4 @@
-button {
+a {
   color: #fff !important;
   background-color: #d83434 !important;
   padding: 15px 40px 15px 40px;
@@ -8,7 +8,11 @@ button {
   box-shadow: 0px 5px black, 0px -5px black, 5px 0px black, -5px 0px black, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36 ;
   cursor: pointer;
 }
-button:active {
+a:active {
   transform: translateY(5px);
   box-shadow: 0px 5px black, 0px -5px black, 5px 0px black, -5px 0px black,inset 0px 5px #00000038;
+}
+
+a:hover {
+  background-color: #ec3737 !important;
 }
