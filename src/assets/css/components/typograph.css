@@ -1,0 +1,4 @@
+h1 {
+  color: #cf2732;
+  filter: drop-shadow(0 0 0.75rem rgb(119, 46, 62)) !important;
+}
