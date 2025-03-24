@@ -2,3 +2,5 @@
 @import url(./layout/header.css);
 @import url(./styles/global.css);
 @import url(./components/panel.css);
+@import url(./layout/footer.css);
+@import url(./responsive/media-queries.css);
