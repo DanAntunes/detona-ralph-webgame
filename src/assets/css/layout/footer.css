@@ -1,7 +1,7 @@
 footer {
   padding: 0;
   width: 100%;
-  background-color: rgba(var(--bg-footer-rgb), 0.5); 
+  background-color: rgba(0.5); 
   position: relative; 
   background-image: url('/src/assets/images/background/wall.png');
 }
