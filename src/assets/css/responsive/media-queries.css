@@ -1,5 +1,8 @@
 /* Media Queries para ajustes específicos */
 @media (max-width: 576px) { /* Telas menores que 576px */
+  .panel {
+    margin-top: 2.4rem;
+  }
   .square {
     height: 35vw;
     width: 33vw;
@@ -11,6 +14,15 @@
   
   .menu h2 {
     font-size: 1rem;
+  }
+  footer {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  footer small {
+    font-size: 0.775rem;
+    padding: 2px;
   }
 }
 
