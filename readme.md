@@ -35,7 +35,7 @@
 ## 🚀 Como Jogar
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/detona-ralph.git
+   git clone https://github.com/DanAntunes/detona-ralph-webgame
    ```
 2. Abra o arquivo `index.html` no navegador
 3. Clique em "Start Game"
@@ -46,17 +46,24 @@
 ```
 detona-ralph/
 ├── src/
-│   ├── assets/
-│   │   ├── css/
-│   │   │   └── styles.css
-│   │   ├── images/
-│   │   │   ├── favicons/
-│   │   │   ├── header/
-│   │   │   └── logo.png
-│   │   └── scripts/
-│   │       └── engine.js
-│   └── pages/
-│       └── app.html
+│   └── assets/
+│       ├── css/
+│       │   ├── components/
+│       │   ├── layout/
+│       │   ├── responsive/
+│       │   ├── styles/
+│       │   └── styles.css
+│       ├── images/
+│       │   ├── background/
+│       │   ├── character/
+│       │   ├── favicons/
+│       │   ├── header/
+│       │   └── logo.png
+│       ├── scripts/
+│       │   └── engine.js
+│       ├── pages/
+│       │    └── app.html
+│       └── sound/
 ├── index.html
 └── README.md
 ```
@@ -74,8 +81,8 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para d
 
 ## ✉️ Contato
 **Danilo Antunes**  
-[![GitHub](https://img.shields.io/badge/GitHub-%23181717?logo=github)](https://github.com/seu-usuario) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?logo=linkedin)](https://linkedin.com/in/seu-perfil)
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717?logo=github)](https://github.com/DanAntunes) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?logo=linkedin)](https://www.linkedin.com/in/dan-de-jesus/)
 
 <div align="center">
   🕹️ Divirta-se e que os jogos comecem! 🎮
