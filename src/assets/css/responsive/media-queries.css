@@ -1,0 +1,22 @@
+/* Media Queries para ajustes específicos */
+@media (max-width: 576px) { /* Telas menores que 576px */
+  .square {
+    height: 35vw;
+    width: 33vw;
+  }
+  
+  .menu .value {
+    font-size: 1rem;
+  }
+  
+  .menu h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) { /* Telas maiores */
+  .square {
+    height: 150px;
+    width: 150px;
+  }
+}
